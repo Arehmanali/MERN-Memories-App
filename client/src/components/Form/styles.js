@@ -1,0 +1,30 @@
+import { makeStyles } from "@mui/styles";
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+    "& .MuiTextField-root": {
+      margin: theme.spacing(1),
+    },
+  },
+  paper: {
+    padding: theme.spacing(1),
+    marginTop: 20,
+  },
+  form: {
+    display: "flex",
+    flexWrap: "wrap",
+    justifyContent: "center",
+  },
+  fileInput: {
+    width: "97%",
+    margin: "10px 0",
+  },
+  buttonSubmit: {
+    marginBottom: "10px",
+  },
+  clearBtn: {
+    marginTop: "10px !important", 
+  },
+}));
+
+export default useStyles;
